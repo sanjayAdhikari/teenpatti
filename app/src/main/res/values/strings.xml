@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Teen Patti</string>
+    <string name="title_activity_player_mode">Select Mode :</string>
+    <string name="single_player">Single Player</string>
+    <string name="multiplayer">Multiplayer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Setting</string>
+</resources>

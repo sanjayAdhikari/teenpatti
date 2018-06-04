@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?><!--styling the button-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"><!--style for button when button was pressed-->
+        <shape>
+            <solid android:color="#cf112d" />
+            <stroke android:width="1dp" android:color="#1f9c5a" />
+            <corners android:radius="6dp" />
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape>
+
+    </item>
+    <item> <!--style for button -->
+        <shape>
+            <!--button used gradient color stroke corners padding -->
+            <gradient android:angle="135"
+                android:type="linear"
+                android:startColor="#ff0000"
+                android:endColor="#df4848"/>
+            <stroke android:width="2dp" android:color="#b15d5d" />
+            <corners android:radius="10dp" />
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape>
+        <!--for round shape button-->
+        <!--<shape android:shape="oval">-->
+        <!--<stroke android:color="#000000" android:width="5dp" />-->
+        <!--<solid android:color="#FF1654"/>-->
+        <!--<size android:width="150dp" android:height="150dp"/>-->
+        <!--<padding android:left="10dp" android:right="10dp" />-->
+        <!--</shape>-->
+    </item>
+</selector>
